@@ -1,0 +1,43 @@
+div {
+  font-size: 28px;
+  color: rgb(182, 174, 174);
+  text-align: center;
+  animation: fade 0.2s;
+  padding: 0 10px;
+  letter-spacing: .2px;
+}
+h2 {
+  font-size: 3vh;
+  margin-top: 20px;
+}
+button {
+  font-size: 18px;
+  width: 50%;
+  padding: 10px;
+  letter-spacing: 0.6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #222;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #de9200;
+  transition: background 0.1s linear;
+}
+
+button:hover {
+  background-color: #ffa800;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 769px) {
+  button {
+    width: 70%;
+  }
+}
