@@ -8,8 +8,13 @@ const Select = ({ setVal }) => {
   const urlCategories = "https://api.chucknorris.io/jokes/categories";
 
   axios
-    .request(urlCategories)
-    .then((response) => setArray(response.data))
+    .get(urlCategories)
+    .then((response) => {
+      if(array.length==1){
+        setArray(response.data)
+      }
+      /* console.log(response.data, 'array.length:', array.length) */
+    } )
     .catch((error) => console.log(error));
 
   return (
@@ -24,3 +29,4 @@ const Select = ({ setVal }) => {
 };
 
 export default Select;
+
