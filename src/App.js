@@ -8,7 +8,7 @@ import Select from "./componentes/Select";
 
 function App() {
   const [quote, setQuote] = useState();
-  const [val, setVal] = useState("");
+  const [val, setVal] = useState("animal");
   const [loading, setLoading] = useState(false);
 
   const updateQuote = () => {
@@ -39,9 +39,6 @@ function App() {
     random();
   }, [val]);
 
-  useEffect(() => {
-    updateQuote();
-  }, []);
 
   return (
     <div className="app">
