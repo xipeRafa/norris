@@ -8,7 +8,7 @@ import Select from "./componentes/Select";
 
 function App() {
   const [quote, setQuote] = useState();
-  const [val, setVal] = useState("animal");
+  const [val, setVal] = useState();
   const [loading, setLoading] = useState(false);
 
   const updateQuote = () => {
