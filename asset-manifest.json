@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/norris/static/css/main.dc2b6fac.css",
-    "main.js": "/norris/static/js/main.a0389d28.js",
+    "main.js": "/norris/static/js/main.90d3931f.js",
     "index.html": "/norris/index.html",
     "main.dc2b6fac.css.map": "/norris/static/css/main.dc2b6fac.css.map",
-    "main.a0389d28.js.map": "/norris/static/js/main.a0389d28.js.map"
+    "main.90d3931f.js.map": "/norris/static/js/main.90d3931f.js.map"
   },
   "entrypoints": [
     "static/css/main.dc2b6fac.css",
-    "static/js/main.a0389d28.js"
+    "static/js/main.90d3931f.js"
   ]
 }
